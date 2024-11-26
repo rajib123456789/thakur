@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_manage_doctors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Doctors" />
+
+    <Button
+        android:id="@+id/btn_manage_patients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Patients" />
+
+    <Button
+        android:id="@+id/btn_manage_buy_medicine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Buy Medicine" />
+
+    <Button
+        android:id="@+id/btn_manage_lab_tests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Lab Tests" />
+
+    <Button
+        android:id="@+id/btn_manage_health_articles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Health Articles" />
+
+    <Button
+        android:id="@+id/btn_manage_order_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Order Details" />
+
+</LinearLayout>
